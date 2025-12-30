@@ -1,0 +1,67 @@
+===============================================================================
+SAMPLE TEST INPUTS FOR PERSONAL INFORMATION MANAGER
+===============================================================================
+
+These are example inputs you can use to test the program:
+
+TEST CASE 1 (Basic Input):
+───────────────────────────
+Favorite Food: Pizza
+Favorite Color: Blue
+
+Expected Output:
+- Favorite Food will display as: Pizza
+- Favorite Color will display as: Blue
+- Age calculation: 22 * 12 = 264 months
+
+
+TEST CASE 2 (Different Input):
+──────────────────────────────
+Favorite Food: Biryani
+Favorite Color: Red
+
+Expected Output:
+- Favorite Food will display as: Biryani
+- Favorite Color will display as: Red
+
+
+TEST CASE 3 (Mixed Case Input):
+───────────────────────────────
+Favorite Food: sPaGheTTi
+Favorite Color: gReEn
+
+Expected Output:
+- Will be converted to: Spaghetti (using .title() method)
+- Will be converted to: Green (using .title() method)
+
+
+TEST CASE 4 (Input with Extra Spaces):
+──────────────────────────────────────
+Favorite Food: "  Chocolate Cake  " (with extra spaces)
+Favorite Color: "  Orange  " (with extra spaces)
+
+Expected Output:
+- Extra spaces will be removed by .strip() method
+- Display: Chocolate Cake
+- Display: Orange
+
+
+VALIDATION TEST (Empty Input):
+──────────────────────────────
+When you press ENTER without typing anything:
+
+Expected Behavior:
+- Program will display:  Please enter a valid food name (cannot be empty).
+- Program will keep asking until you provide valid input
+- This demonstrates input validation using while loops
+
+
+RUNNING THE TESTS:
+──────────────────
+1. Open terminal/command prompt
+2. Navigate to week1-personal-info folder
+3. Run: python personal_info.py
+4. Enter values from any test case above
+5. Verify output matches expected output
+
+===============================================================================
